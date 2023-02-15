@@ -16,7 +16,7 @@ const DeparmentGroup = ({ deparments, handleSetSlud }: props) => {
   console.log("mi grupo de departamentos es:", deparments);
 
 const onHandleSetSlug = (event: any ) => {
-  handleSetSlud(`${event.targe.value}/$\{term\}&map=ft`)
+  handleSetSlud(`${event.targe.value}/$\{term\}`)
 
 }
 

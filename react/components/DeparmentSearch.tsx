@@ -22,7 +22,7 @@ return loading
  :
  <div className={handles.container}>
 
- <DeparmentGroup deparments={data?.categories[0]?.children}
+ <DeparmentGroup deparments={data?.categories}
  handleSetSlud={setSlug}
 
  />
